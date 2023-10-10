@@ -104,15 +104,15 @@ t_tree	*make_tree(t_tree *myself, t_dlist *dlist)
 그 이후 양 옆의 명령어들이 각각 왼쪽은 left child, 오른쪽은 right child로 트리가 구성됩니다.
 
 ## 명령어
-* built-in 함수
+* built-in 함수  
 구현 해야하는 함수들
- * echo
- * cd
- * pwd
- * export
- * unset
- * env
- * exit
+    * echo
+    * cd
+    * pwd
+    * export
+    * unset
+    * env
+    * exit
 
 * 일반 함수  
 예를 들어 ls 같은 함수들은 execve함수를 호출하여 환경변수에 저장되어있는 PATH를 통해 /bin/ls 처럼 실행합니다.  
