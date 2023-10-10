@@ -113,7 +113,8 @@ t_tree	*make_tree(t_tree *myself, t_dlist *dlist)
  * unset
  * env
  * exit
-* 일반 함수
+
+* 일반 함수  
 예를 들어 ls 같은 함수들은 execve함수를 호출하여 환경변수에 저장되어있는 PATH를 통해 /bin/ls 처럼 실행합니다.  
 단, execve함수는 리턴 시 프로세스가 종료되므로 자식프로세스에서 실행 후 반환값을 파이프를 통해 부모프로세스가 받아야합니다.
 
